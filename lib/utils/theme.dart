@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import "package:google_fonts/google_fonts.dart";
 
 HexColor primaryColor = HexColor("#FF4945");
-HexColor accentColor = HexColor("#226AC9 ");
+HexColor blue = HexColor("#226AC9");
+HexColor accentColor = HexColor("#226AC9");
 HexColor muteTextColor = HexColor("#A6A6AB");
 HexColor green = HexColor("#4FD940");
 HexColor lightgreen = HexColor("#F6FCF3");
