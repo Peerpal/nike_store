@@ -1,10 +1,8 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:line_awesome_icons/line_awesome_icons.dart';
 import 'package:store/utils/theme.dart';
 
-Widget close(context) => Row(
+Row close(context) => Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         MaterialButton(

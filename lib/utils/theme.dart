@@ -1,3 +1,4 @@
+import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import "package:google_fonts/google_fonts.dart";
 
@@ -22,7 +23,12 @@ darkThemeData(context) => ThemeData.dark().copyWith(
       textTheme: GoogleFonts.ubuntuTextTheme(Theme.of(context).textTheme),
       primaryColor: Colors.blue,
       visualDensity: VisualDensity.adaptivePlatformDensity,
-      
+    );
+
+decoration({size, weight, color}) => TextStyle(
+      color: color,
+      fontSize: size,
+      fontWeight: weight,
     );
 
 class HexColor extends Color {

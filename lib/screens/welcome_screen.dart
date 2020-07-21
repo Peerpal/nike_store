@@ -81,7 +81,7 @@ class WelcomeScreen extends StatelessWidget {
                     ),
                     SpaceY(y: 15),
                     MaterialButton(
-                      onPressed: () => Navigator.popAndPushNamed(context, "signin"),
+                      onPressed: () => Navigator.pushNamed(context, "signin"),
                       textColor: Colors.black,
                       padding: EdgeInsets.symmetric(
                         horizontal: 40,
